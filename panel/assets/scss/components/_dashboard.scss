@@ -35,13 +35,14 @@
 
 /* Dashboard Boxes */
 .dashboard-box {
-  position: relative;
-  display: block;
-  border: 2px solid #ddd;
-  overflow: hidden;
-  background: #efefef;
-  margin-bottom: .5em;
+	position: relative;
+	display: block;
+	border: 1px solid $color-divider;
+	overflow: hidden;
+	background: $color-accent;
+	margin-bottom: .5em;
 }
+
 .dashboard-box .text {
   padding: .75em 1em;
 }
@@ -70,7 +71,7 @@
   text-align: center;
 }
 .dashboard-item-icon-with-border {
-  border-right: 1px solid #ddd;    
+  border-right: 1px solid #ddd;
 }
 .dashboard-item-icon i {
   position: static;

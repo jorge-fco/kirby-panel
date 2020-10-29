@@ -15,6 +15,11 @@ html{
 }
 
 body{
+	font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+	color: $color-text;
+	font-size: $body-size-font;
+	background-color: $body-background-color;
+
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
 	font-smooth: always;

@@ -18,6 +18,16 @@
   font-weight: 400;
   src: url(../fonts/sourcesanspro-400-italic.woff2) format("woff2"), url(../fonts/sourcesanspro-400-italic.woff) format("woff"); }
 
+:root {
+  --color-text: #212b36;
+  --color-text-light: #637381;
+  --color-text-dark: #121212;
+  --color-icon-accent: #919eab;
+  --body-size-font: 1rem;
+  --body-background-color: #F4F6F8;
+  --color-accent: #F4F6F8;
+  --color-divider: #dfe3e8; }
+
 *, *:before, *:after {
   margin: 0;
   padding: 0;
@@ -87,7 +97,7 @@ body.rtl {
   background: #fff; }
 
 .app {
-  background: #efefef; }
+  background: var(--body-background-color); }
 
 .section {
   padding: 1.5em; }
@@ -136,13 +146,6 @@ body.rtl {
   word-break: break-word;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis; }
-
-:root {
-  --color-text: #212b36;
-  --color-text-light: #637381;
-  --color-text-dark: #121212;
-  --color-accent: #F4F6F8;
-  --color-divider: #dfe3e8; }
 
 .shiv:after {
   position: absolute;
@@ -259,6 +262,10 @@ html {
   -moz-osx-font-smoothing: grayscale; }
 
 body {
+  font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+  color: var(--color-text);
+  font-size: var(--body-size-font);
+  background-color: var(--body-background-color);
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   font-smooth: always;
@@ -1444,9 +1451,9 @@ body.rtl .tag button.tag-label {
 .dashboard-box {
   position: relative;
   display: block;
-  border: 2px solid #ddd;
+  border: 1px solid var(--color-divider);
   overflow: hidden;
-  background: #efefef;
+  background: var(--color-accent);
   margin-bottom: .5em; }
 
 .dashboard-box .text {
@@ -2384,11 +2391,15 @@ body.rtl .topbar .breadcrumb {
   white-space: nowrap;
   overflow: hidden; }
 
-body.ltr .sidebar-list > li > a {
-  padding: .25em 0 .25em 1.75em; }
-
-body.rtl .sidebar-list > li > a {
-  padding: .25em 1.75em .25em 0; }
+.sidebar-list > li > a {
+  color: var(--color-text);
+  font-weight: 500; }
+  .sidebar-list > li > a i {
+    color: var(--color-icon-accent); }
+  body.ltr .sidebar-list > li > a {
+    padding: .25em 0 .25em 1.75em; }
+  body.rtl .sidebar-list > li > a {
+    padding: .25em 1.75em .25em 0; }
 
 .sidebar-list > li > .option {
   position: absolute;

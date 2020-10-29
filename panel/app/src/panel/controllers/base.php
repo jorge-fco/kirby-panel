@@ -41,7 +41,7 @@ class Base extends Obj {
   public function layout($type, $data = array()) {
 
 	$version  = panel()->version();
-	$versioncss  = '0.04';
+	$versioncss  = '0.06';
 	$base     = panel()->urls()->index();
 	$cssbase  = panel()->urls()->css();
 	$jsbase   = panel()->urls()->js();
