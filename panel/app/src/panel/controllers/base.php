@@ -57,22 +57,21 @@ class Base extends Obj {
 		'bodyclass' => '',
 	);
 
-    switch($type) {
-      case 'app':
-        $defaults['topbar']  = '';
-        $defaults['csrf']    = panel()->csrf();
-        $defaults['formcss'] = css($cssbase . '/form.min.css?v=' . $version);
-        $defaults['formjs']  = js($jsbase   . '/dist/form.min.js?v='  . $version);
-        $defaults['appjs']   = js($jsbase   . '/dist/app.min.js?v='   . $version);
+	switch($type) {
+		case 'app':
+			$defaults['topbar']  = '';
+			$defaults['csrf']    = panel()->csrf();
+			$defaults['formcss'] = css($cssbase . '/form.min.css?v=' . $versioncss);
+			$defaults['formjs']  = js($jsbase   . '/dist/form.min.js?v='  . $version);
+			$defaults['appjs']   = js($jsbase   . '/dist/app.min.js?v='   . $version);
+			// plugin stuff
+			$defaults['pluginscss'] = css($base . '/plugins/css?v='  . $version);
+			$defaults['pluginsjs']  = js($base . '/plugins/js?v='  . $version);
 
-        // plugin stuff
-        $defaults['pluginscss'] = css($base . '/plugins/css?v='  . $version);
-        $defaults['pluginsjs']  = js($base . '/plugins/js?v='  . $version);
-
-        break;
-      case 'base':
-        break;
-    }
+		break;
+			case 'base':
+		break;
+	}
 
     $data = array_merge($defaults, $data);
 

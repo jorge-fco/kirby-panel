@@ -1,14 +1,19 @@
+$color-primary: 		var(--color-primary) !default;
+$color-secundary: 		var(--color-secundary) !default;
+
+// Text
 $color-text: 				var(--color-text) !default;
 $color-text-light: 		var(--color-text-light) !default;
 $color-text-dark: 		var(--color-text-dark) !default;
 
-//
+// Colors
+$color-red: 				var(--color-red) !default;
 $color-icon-accent: 	var(--color-icon-accent) !default;
 
-//
+// Accents
 $color-accent: 	var(--color-accent) !default;
 $color-divider: 	var(--color-divider) !default;
 
-//
+// Body
 $body-size-font: 				var(--body-size-font) !default;
 $body-background-color: 	var(--body-background-color) !default;

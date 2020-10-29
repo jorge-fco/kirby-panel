@@ -5,6 +5,8 @@
 }
 
 html{
+	width: 100%;
+	position: relative;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
@@ -15,11 +17,12 @@ html{
 }
 
 body{
-	font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
+	width: 100%;
+	position: relative;
+	font-family: Inter var,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 	color: $color-text;
 	font-size: $body-size-font;
 	background-color: $body-background-color;
-
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
 	font-smooth: always;
