@@ -12,4 +12,4 @@ panel/app/views/auth/login.php
 panel/app/src/panel/controllers/base.php
 ```
 
-3.- Create file `login.scss`and add in core panel.scss
+3.- Create file `_login.scss`and add in core `panel.scss`

@@ -137,6 +137,13 @@ body.rtl {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis; }
 
+:root {
+  --color-text: #212b36;
+  --color-text-light: #637381;
+  --color-text-dark: #121212;
+  --color-accent: #F4F6F8;
+  --color-divider: #dfe3e8; }
+
 .shiv:after {
   position: absolute;
   content: "";
@@ -236,9 +243,26 @@ h5 a,
 h6 a {
   color: inherit; }
 
-* {
-  font-size: 100%;
-  font-family: "Source Sans Pro", "Apple LiGothic Medium", "Microsoft JhengHei UI", "Helvetica Neue", Arial, sans-serif; }
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale; }
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased; }
 
 .light {
   font-weight: 300; }
