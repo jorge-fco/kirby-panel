@@ -1,0 +1,14 @@
+.thumb{
+	@include full();
+	text-align: center;
+	background-color: $color-accent;
+	svg{
+		fill: $color-divider;
+		width: 50%;
+		height: 50%;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		@include center-align();
+	}
+}

@@ -1,0 +1,37 @@
+.button{
+	@extend .btn;
+	@include title;
+	border: 1px solid transparent;
+	border-radius: $buttons-radius;
+	text-decoration: none;
+	padding: $buttons-padding;
+	&:hover{
+		box-shadow: none;
+		text-decoration: none;
+	}
+	&:focus{
+		box-shadow: none;
+	}
+}
+
+
+.button-primary{
+	color: white;
+	background-color: $color-primary;
+	&:hover{
+		color: white;
+		background-color: $color-secundary;
+	}
+}
+
+.button-secundary{
+	&:hover{
+
+	}
+}
+
+.button-round{
+	&:hover{
+
+	}
+}

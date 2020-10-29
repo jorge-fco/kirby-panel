@@ -1,0 +1,41 @@
+.header{
+	width: 100%;
+	position: relative;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background-color: white;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.header__navigation{
+	width: 100%;
+	position: relative;
+
+	ul{
+		@include not-list();
+		@include flex-row();
+
+		li{
+			position: relative;
+
+			+ li{
+				margin-left: 15px;
+			}
+
+			a{
+				display: inline-block;
+				position: relative;
+
+				&:hover{
+
+				}
+				&.is-active{
+
+				}
+				&:before{
+
+				}
+			}
+		}
+	}
+}
