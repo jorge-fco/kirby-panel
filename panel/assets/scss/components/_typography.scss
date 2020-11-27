@@ -19,7 +19,7 @@ html{
 body{
 	width: 100%;
 	position: relative;
-	font-family: Inter var,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+	font-family: $font-text;
 	color: $color-text;
 	font-size: $body-size-font;
 	background-color: $body-background-color;

@@ -31,7 +31,8 @@
   --body-size-font: 1rem;
   --body-background-color: #F4F6F8;
   --color-accent: #F4F6F8;
-  --color-divider: #dfe3e8; }
+  --color-divider: #dfe3e8;
+  --font-text: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; }
 
 *, *:before, *:after {
   margin: 0;
@@ -152,42 +153,6 @@ body.rtl {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis; }
 
-.fa.icon {
-  font-size: 14px; }
-
-.fa.fa-lg.icon {
-  font-size: 20px; }
-
-.icon {
-  font-size: 14px;
-  position: relative;
-  top: -1px;
-  display: inline-block;
-  font-style: normal;
-  font-weight: bold;
-  text-align: center; }
-
-body.ltr .icon-left {
-  padding-right: .5em; }
-
-body.rtl .icon-left {
-  padding-left: .5em; }
-
-body.ltr .icon-right {
-  padding-left: .5em; }
-
-body.rtl .icon-right {
-  padding-right: .5em; }
-
-.fa-folder {
-  color: var(--color-yellow) !important; }
-
-.fa-toggle-on {
-  color: var(--color-green) !important; }
-
-.fa-toggle-off {
-  color: var(--color-icon-accent) !important; }
-
 .shiv:after {
   position: absolute;
   content: "";
@@ -307,7 +272,7 @@ html {
 body {
   width: 100%;
   position: relative;
-  font-family: Inter var,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-family: var(--font-text);
   color: var(--color-text);
   font-size: var(--body-size-font);
   background-color: var(--body-background-color);
@@ -793,6 +758,7 @@ body.rtl .field-grid {
 
 /* Inputs */
 .input {
+  font-family: var(--font-text);
   padding: .5em;
   font-size: 1em;
   line-height: 1.5em;
@@ -878,7 +844,8 @@ body.rtl .input-with-checkbox .checkbox {
   margin: .3em .25em .3em 1em; }
 
 .selectbox {
-  width: 100%; }
+  width: 100%;
+  font-family: var(--font-text); }
 
 .selectbox-wrapper {
   height: 1.5em;
@@ -897,6 +864,7 @@ body.rtl .input-with-selectbox .selectbox-wrapper {
   margin-left: -3em; }
 
 .input-with-selectbox .selectbox {
+  font-family: var(--font-text);
   line-height: 1.5em;
   display: block;
   outline: 0;
@@ -1373,6 +1341,7 @@ body.rtl .topbar .message-toggle {
     padding-left: 1.5em; }
 
 .tag {
+  font-family: var(--font-text);
   margin: 3px;
   vertical-align: top;
   display: block;
@@ -1389,6 +1358,8 @@ a.tag {
     display: inline-block; } }
 
 .tag .tag-label {
+  font-family: var(--font-text);
+  line-height: 1.6;
   display: block;
   width: 100%;
   color: #fff;
@@ -3098,6 +3069,42 @@ body.over:after {
   margin-left: -1.5em;
   margin-top: -.5em;
   text-align: center; }
+
+.fa.icon {
+  font-size: 14px; }
+
+.fa.fa-lg.icon {
+  font-size: 20px; }
+
+.icon {
+  font-size: 14px;
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center; }
+
+body.ltr .icon-left {
+  padding-right: .5em; }
+
+body.rtl .icon-left {
+  padding-left: .5em; }
+
+body.ltr .icon-right {
+  padding-left: .5em; }
+
+body.rtl .icon-right {
+  padding-right: .5em; }
+
+.fa-folder {
+  color: var(--color-yellow) !important; }
+
+.fa-toggle-on {
+  color: var(--color-green) !important; }
+
+.fa-toggle-off {
+  color: var(--color-icon-accent) !important; }
 
 .debugger {
   overflow: auto;

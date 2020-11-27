@@ -295,6 +295,7 @@ form.loading:after {
 
 /* Inputs */
 .input {
+	font-family: $font-text;
 	padding: .5em;
 	font-size: 1em;
 	line-height: 1.5em;
@@ -381,40 +382,48 @@ textarea.input {
     margin: .3em .25em .3em 1em;
   }
 }
+
 .selectbox {
-  width: 100%;
+	width: 100%;
+	font-family: $font-text;
 }
+
 .selectbox-wrapper {
-  height: 1.5em;
-  overflow: hidden;
+	height: 1.5em;
+	overflow: hidden;
 }
+
 .input-with-selectbox {
-  overflow: hidden;
-  cursor: pointer;
-  padding: .5em;
-  line-height: 1em;
+	overflow: hidden;
+	cursor: pointer;
+	padding: .5em;
+	line-height: 1em;
 }
+
 .input-with-selectbox .selectbox-wrapper {
-  body.ltr & {
-    margin-right: -3em;
-  }
-  body.rtl & {
-    margin-left: -3em;
-  }
+	body.ltr & {
+		margin-right: -3em;
+	}
+	body.rtl & {
+		margin-left: -3em;
+	}
 }
+
 .input-with-selectbox .selectbox {
-  line-height: 1.5em;
-  display: block;
-  outline: 0;
-  cursor: pointer;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: 0;
-  background: none;
-  outline: none;
-  border-radius: 0;
+	font-family: $font-text;
+	line-height: 1.5em;
+	display: block;
+	outline: 0;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 0;
+	background: none;
+	outline: none;
+	border-radius: 0;
 }
+
 .input-with-selectbox .selectbox:-moz-focusring {
   color: transparent;
   text-shadow: 0 0 0 #000;
