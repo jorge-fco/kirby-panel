@@ -25,6 +25,8 @@
   --color-text-light: #637381;
   --color-text-dark: #121212;
   --color-red: #fc454b;
+  --color-green: #649f38;
+  --color-yellow: #F59E0A;
   --color-icon-accent: #919eab;
   --body-size-font: 1rem;
   --body-background-color: #F4F6F8;
@@ -149,6 +151,42 @@ body.rtl {
   word-break: break-word;
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis; }
+
+.fa.icon {
+  font-size: 14px; }
+
+.fa.fa-lg.icon {
+  font-size: 20px; }
+
+.icon {
+  font-size: 14px;
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center; }
+
+body.ltr .icon-left {
+  padding-right: .5em; }
+
+body.rtl .icon-left {
+  padding-left: .5em; }
+
+body.ltr .icon-right {
+  padding-left: .5em; }
+
+body.rtl .icon-right {
+  padding-right: .5em; }
+
+.fa-folder {
+  color: var(--color-yellow) !important; }
+
+.fa-toggle-on {
+  color: var(--color-green) !important; }
+
+.fa-toggle-off {
+  color: var(--color-icon-accent) !important; }
 
 .shiv:after {
   position: absolute;
@@ -1619,33 +1657,6 @@ body.rtl .dropdown-right:after {
 
 .dropdown-dark .dropdown-list li:last-child a {
   border-bottom: 0; }
-
-.fa.icon {
-  font-size: 14px; }
-
-.fa.fa-lg.icon {
-  font-size: 20px; }
-
-.icon {
-  font-size: 14px;
-  position: relative;
-  top: -1px;
-  display: inline-block;
-  font-style: normal;
-  font-weight: bold;
-  text-align: center; }
-
-body.ltr .icon-left {
-  padding-right: .5em; }
-
-body.rtl .icon-left {
-  padding-left: .5em; }
-
-body.ltr .icon-right {
-  padding-left: .5em; }
-
-body.rtl .icon-right {
-  padding-right: .5em; }
 
 .avatar {
   display: block;
