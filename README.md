@@ -19,3 +19,7 @@ Add files in sidebar.
 ```
 panel/app/snippets/pages/sidebar/files.php
 ```
+
+## References.
+* https://tailwindcss.com/
+* https://codyhouse.co/
