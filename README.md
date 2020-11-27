@@ -13,3 +13,13 @@ panel/app/src/panel/controllers/base.php
 ```
 
 3.- Create file `_login.scss`and add in core `panel.scss`
+
+## Files.
+Add files in sidebar.
+```
+panel/app/snippets/pages/sidebar/files.php
+```
+
+## References.
+* https://tailwindcss.com/
+* https://codyhouse.co/
