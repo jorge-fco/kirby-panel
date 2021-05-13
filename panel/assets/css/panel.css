@@ -25,7 +25,8 @@
   --color-text-light: #637381;
   --color-text-dark: #121212;
   --color-red: #fc454b;
-  --color-green: #649f38;
+  --color-blue: #0366d6;
+  --color-green: #34d058;
   --color-yellow: #F59E0A;
   --color-icon-accent: #919eab;
   --body-size-font: 1rem;
@@ -2305,7 +2306,8 @@ body.rtl .topbar .breadcrumb {
   top: 3em; }
 
 .sidebar {
-  padding: 1.5em; }
+  padding: 1.5em;
+  border-right: 1px solid var(--color-divider); }
 
 .sidebar-toggle {
   position: relative;
@@ -2413,9 +2415,26 @@ body.rtl .topbar .breadcrumb {
 
 .sidebar-list > li > a {
   color: var(--color-text);
-  font-weight: 500; }
+  font-weight: 500;
+  -webkit-transition: all 225ms ease-out;
+  -o-transition: all 225ms ease-out;
+  transition: all 225ms ease-out; }
+  .sidebar-list > li > a:hover {
+    color: var(--color-text-light);
+    text-decoration: none;
+    -webkit-transition: all 225ms ease-out;
+    -o-transition: all 225ms ease-out;
+    transition: all 225ms ease-out; }
   .sidebar-list > li > a i {
-    color: var(--color-icon-accent); }
+    color: var(--color-icon-accent);
+    position: relative;
+    display: inline-block; }
+    .sidebar-list > li > a i.fa-play-circle-o {
+      color: var(--color-blue); }
+    .sidebar-list > li > a i.fa-toggle-off {
+      color: var(--color-accent); }
+    .sidebar-list > li > a i.fa-trash-o {
+      color: var(--color-red); }
   body.ltr .sidebar-list > li > a {
     padding: .25em 0 .25em 1.75em; }
   body.rtl .sidebar-list > li > a {
