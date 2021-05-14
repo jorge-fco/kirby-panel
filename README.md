@@ -1,6 +1,15 @@
 # Kirby Panel.
 Kirby CMS version 2.5.12
 
+## Header.
+```
+panel/app/layouts/app.php
+```
+
+```
+panel/app/layouts/base.php
+```
+
 ## 🔐 Login.
 1.- Edit view template login.
 ```
@@ -19,6 +28,13 @@ Add files in sidebar pages.
 ```
 panel/app/snippets/pages/sidebar/files.php
 ```
+
+## Sidebar.
+
+### Features.
+- WhatsApp
+- Facebook
+- Favicon
 
 ## References.
 * https://tailwindcss.com/

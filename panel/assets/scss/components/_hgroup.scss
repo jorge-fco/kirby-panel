@@ -1,9 +1,23 @@
 .hgroup {
+	font-size: 18px;
+	font-weight: 700;
+	color: $color-text;
 	position: relative;
 	padding-bottom: .5em;
 	line-height: 1.5em;
 	border-bottom: 2px solid $color-divider;
 	margin-bottom: 1.5em;
+}
+
+.field-with-headline-numbered .hgroup::before{
+	color: $color-text;
+	font-size: 14px;
+	font-weight: 700;
+	border: 0px;
+	border-radius: 2rem;
+	padding-left: 16px;
+	padding-right: 16px;
+	background-color: #ffea8a;
 }
 
 .hgroup a {

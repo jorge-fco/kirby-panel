@@ -1653,11 +1653,24 @@ body.rtl .dropdown-right:after {
   max-width: 100%; }
 
 .hgroup {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-text);
   position: relative;
   padding-bottom: .5em;
   line-height: 1.5em;
   border-bottom: 2px solid var(--color-divider);
   margin-bottom: 1.5em; }
+
+.field-with-headline-numbered .hgroup::before {
+  color: var(--color-text);
+  font-size: 14px;
+  font-weight: 700;
+  border: 0px;
+  border-radius: 2rem;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #ffea8a; }
 
 .hgroup a {
   position: relative;
