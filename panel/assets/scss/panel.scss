@@ -5,7 +5,6 @@
 @import "components/reset";
 @import "components/misc";
 @import "components/shiv";
-@import "components/certificate";
 @import "components/nprogress";
 @import "components/headlines";
 @import "components/typography";
@@ -45,7 +44,11 @@
 @import "components/icon";
 @import "components/debugger";
 
-//= P A G E S
+//= WIDGETS
+@import "components/certificate";
+@import "components/google";
+
+//= PAGES
 @import "components/login";
 
 /* Fontawesome */

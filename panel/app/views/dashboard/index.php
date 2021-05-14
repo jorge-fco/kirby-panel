@@ -8,6 +8,9 @@
 						<span class="hgroup-title">
 							<?php if(!empty($title['link'])): ?>
 								<a<?php e(a::get($title, 'target'), ' target="' . a::get($title, 'target') . '"') ?> href="<?php __($title['link']) ?>">
+									<?php if ($id=='analytics'): ?>
+										<i class="fas fa-chart-line" style="color:#FAAB00;"></i>
+									<?php endif ?>
 									<?php if ($id=='certificado-ssl'): ?>
 										<i class="fas fa-globe" style="color:#34d058;"></i>
 									<?php endif ?>
@@ -25,17 +28,18 @@
 
 					<?php if(!empty($widget['options']) and is_array($widget['options'])): ?>
 					<span class="hgroup-options shiv shiv-dark shiv-left">
-					<span class="hgroup-option-right">
-					<?php foreach($widget['options'] as $option): ?>
-					<?php if(!empty($option['key'])): ?>
-					<a title="<?php __($option['key']) ?>"<?php e(a::get($option, 'modal'), ' data-modal') ?><?php e(a::get($option, 'target'), ' target="' . a::get($option, 'target') . '"') ?> data-shortcut="<?php __($option['key']) ?>" href="<?php __($option['link']) ?>">
-					<?php else: ?>
-					<a title="<?php __($option['text']) ?>"<?php e(a::get($option, 'modal'), ' data-modal') ?><?php e(a::get($option, 'target'), ' target="' . a::get($option, 'target') . '"') ?> href="<?php __($option['link']) ?>">            
-					<?php endif ?>
-					<?php i($option['icon'], 'left') ?><span><?php __($option['text']) ?></span>
-					</a>
-					<?php endforeach ?>
-					</span>
+						<span class="hgroup-option-right">
+							<?php foreach($widget['options'] as $option): ?>
+								<?php if(!empty($option['key'])): ?>
+									<a title="<?php __($option['key']) ?>"<?php e(a::get($option, 'modal'), ' data-modal') ?>
+									<?php e(a::get($option, 'target'), ' target="' . a::get($option, 'target') . '"') ?> data-shortcut="<?php __($option['key']) ?>" href="<?php __($option['link']) ?>">
+								<?php else: ?>
+									<a title="<?php __($option['text']) ?>"<?php e(a::get($option, 'modal'), ' data-modal') ?><?php e(a::get($option, 'target'), ' target="' . a::get($option, 'target') . '"') ?> href="<?php __($option['link']) ?>">
+								<?php endif ?>
+									<?php i($option['icon'], 'left') ?><span><?php __($option['text']) ?></span>
+								</a>
+							<?php endforeach ?>
+						</span>
 					</span>
 					<?php endif ?>
 				</h2>

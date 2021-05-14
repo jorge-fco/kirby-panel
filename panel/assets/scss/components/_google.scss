@@ -1,36 +1,29 @@
-/*
-	🔒 Certificate SSL
-	©2021
-	Developer by Jorge Fco.™
-*/
-.certificate__ssl{
+.google__analytics{
 	width: 100%;
 	position: relative;
 }
 
-.certificate__ssl__container{
+.google__analytics__container{
 	width: 100%;
 	position: relative;
 
 	p{
 		color: $color-text-light;
 		font-size: 14px;
-		position: relative;
+		line-height: 1.5;
 		margin-bottom: 0px;
-
-		+ p{
-			margin-top: 12px;
-		}
+		position: relative;
 	}
 
 	a{
 		color: $color-primary;
 		font-size: 14px;
-		margin-top: 16px;
 		display: inline-block;
 		position: relative;
+		margin-top: 16px;
 
 		i{
+			font-size: 14px;
 			display: inline-block;
 			position: relative;
 		}
