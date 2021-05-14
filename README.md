@@ -32,9 +32,15 @@ panel/app/snippets/pages/sidebar/files.php
 ## Sidebar.
 
 ### Features.
-- WhatsApp
-- Facebook
+- WhatsApp Business
+- Facebook Messenger
+- Fcaebook ID
 - Favicon
+- Google Site Verification
+- Google Analytics
+- Minify files
+- Version CSS
+- Version JS
 
 ## References.
 * https://tailwindcss.com/

@@ -211,6 +211,55 @@ body.rtl .shiv-grey:after {
   background: -o-linear-gradient(right, rgba(239, 239, 239, 0), #efefef);
   background: linear-gradient(right, rgba(239, 239, 239, 0), #efefef); }
 
+/*
+	Certificate SSL
+*/
+.certificate__ssl {
+  width: 100%;
+  position: relative; }
+
+.certificate__ssl__container {
+  width: 100%;
+  position: relative; }
+  .certificate__ssl__container p {
+    color: var(--color-text-light);
+    font-size: 14px;
+    position: relative;
+    margin-bottom: 0px; }
+    .certificate__ssl__container p + p {
+      margin-top: 12px; }
+  .certificate__ssl__container a {
+    color: var(--color-primary);
+    font-size: 14px;
+    margin-top: 16px;
+    display: inline-block;
+    position: relative;
+    text-decoration: underline; }
+  .certificate__ssl__container label {
+    color: var(--color-text-light);
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    position: relative;
+    margin-top: 16px; }
+  .certificate__ssl__container data {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px 7px;
+    position: relative;
+    display: inline-block;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2em; }
+    .certificate__ssl__container data.is-active {
+      color: #3fb950;
+      border-color: rgba(46, 160, 67, 0.4);
+      background-color: rgba(46, 160, 67, 0.1); }
+    .certificate__ssl__container data.is-desactive {
+      color: #f85149;
+      border-color: rgba(248, 81, 73, 0.4);
+      background-color: rgba(248, 81, 73, 0.1); }
+
 /* Make clicks pass-through */
 #nprogress {
   pointer-events: none; }

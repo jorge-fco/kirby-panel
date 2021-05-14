@@ -1,0 +1,63 @@
+/*
+	Certificate SSL
+*/
+.certificate__ssl{
+	width: 100%;
+	position: relative;
+}
+
+.certificate__ssl__container{
+	width: 100%;
+	position: relative;
+
+	p{
+		color: $color-text-light;
+		font-size: 14px;
+		position: relative;
+		margin-bottom: 0px;
+
+		+ p{
+			margin-top: 12px;
+		}
+	}
+
+	a{
+		color: $color-primary;
+		font-size: 14px;
+		margin-top: 16px;
+		display: inline-block;
+		position: relative;
+		text-decoration: underline;
+	}
+
+	label{
+		color: $color-text-light;
+		font-size: 14px;
+		font-weight: 600;
+		display: block;
+		position: relative;
+		margin-top: 16px;
+	}
+
+	data{
+		font-size: 12px;
+		font-weight: 400;
+		padding: 2px 7px;
+		position: relative;
+		display: inline-block;
+		border-width: 1px;
+		border-style: solid;
+		border-radius: 2em;
+
+		&.is-active{
+			color: #3fb950;
+			border-color: rgba(46, 160, 67, 0.4);
+			background-color: rgba(46, 160, 67, 0.1);
+		}
+		&.is-desactive{
+			color: #f85149;
+			border-color: rgba(248, 81, 73, 0.4);
+			background-color: rgba(248, 81, 73, 0.1);
+		}
+	}
+}
