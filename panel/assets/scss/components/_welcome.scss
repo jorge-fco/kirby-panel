@@ -1,0 +1,41 @@
+.welcome__row{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+}
+
+.welcome__avatar{
+	width: 40px;
+	height: 40px;
+	border: 0px;
+	border-radius: 0px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	background-color: #9D6ADD;
+
+	i{
+		color: white;
+		font-size: 18px;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, - 50%);
+	}
+}
+
+.welcome__username{
+	display: inline-block;
+	position: relative;
+	padding-left: 16px;
+
+	span{
+		color: $color-text-light;
+
+		strong{
+			color: $color-text;
+			font-weight: 700;
+		}
+	}
+}

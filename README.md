@@ -30,17 +30,21 @@ panel/app/snippets/pages/sidebar/files.php
 ```
 
 ## Sidebar.
+```
+panel/app/snippets/pages/sidebar/subpages.php
+```
 
 ### Features.
-- WhatsApp Business
-- Facebook Messenger
-- Fcaebook ID
-- Favicon
-- Google Site Verification
-- Google Analytics
-- Minify files
-- Version CSS
-- Version JS
+- Certificate SSL
+- WhatsApp Business.
+- Facebook Messenger.
+- Fcaebook ID.
+- Favicon.
+- Google Site Verification.
+- Google Analytics.
+- Minify files.
+- Version CSS.
+- Version JS.
 
 ## References.
 * https://tailwindcss.com/

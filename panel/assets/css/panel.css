@@ -3249,6 +3249,49 @@ body.rtl .icon-right {
       border-color: rgba(248, 81, 73, 0.4);
       background-color: rgba(248, 81, 73, 0.1); }
 
+.welcome__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.welcome__avatar {
+  width: 40px;
+  height: 40px;
+  border: 0px;
+  border-radius: 0px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  background-color: #9D6ADD; }
+  .welcome__avatar i {
+    color: white;
+    font-size: 18px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+.welcome__username {
+  display: inline-block;
+  position: relative;
+  padding-left: 16px; }
+  .welcome__username span {
+    color: var(--color-text-light); }
+    .welcome__username span strong {
+      color: var(--color-text);
+      font-weight: 700; }
+
 .login__title {
   width: 100%;
   position: relative;
