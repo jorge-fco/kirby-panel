@@ -1,0 +1,104 @@
+title: SEO
+icon: cog
+files: true
+pages: false
+options:
+  preview: false
+  status: false
+  template: false
+  url: false
+  delete: false
+fields:
+  # FILES
+  previewfiles:
+    type: previewfiles
+
+  #= TAB 01
+  # ==================================================
+  tab1:
+    label: Configuración
+    type: tabs
+    icon: align-left
+
+  title:
+    label: Título
+    type:  text
+    disabled: true
+
+  author:
+    label: Autor
+    type:  text
+    icon: font
+    placeholder: Empresa
+    help: Nombre del autor
+
+  icon:
+    label: Favicon (.ico)
+    type:  image
+    icon: file
+    width: 1/2
+
+  seoimage:
+    label: Share imagen (Rede Sociales)
+    type:  image
+    width: 1/2
+    help: Imagen que aparece al compartir la URL de tu sitio web
+
+  seodescription:
+    label: Descripción
+    type:  textarea
+    placeholder: ¿Quiénes somos?
+    help: Breve descripción sobre <strong>¿Quiénes somos?</strong> (50–300 characters.)
+
+  seotags:
+    label: keywords
+    type:  tags
+    help: Agregar el nombre de cada palabra separado por una <strong>coma (,)</strong>
+
+  #= TAB 02
+  # ==================================================
+  tab2:
+    label: Preferences Analytics
+    type: tabs
+    icon: line-chart
+
+  facebook_header:
+    label: <i class="fab fa-facebook" style="color:#1877F2;"></i> Facebook
+    type: headline
+
+  facebook_id:
+    label: <i class="fab fa-facebook-square"></i> Facebook App ID
+    type:  text
+    icon: facebook
+
+  facebook_domain_verification:
+    label: <i class="fab fa-facebook-square"></i> Facebook verificación de dominio
+    type:  text
+    icon: facebook
+    help: https://www.facebook.com/business/help/286768115176155
+
+  facebook_pixel_code:
+    label: <i class="fas fa-code"></i> Facebook Píxel Code
+    type:  textarea
+    help: <i class="fa fa-facebook-official" aria-hidden="true"></i> embed code tag <strong>head</strong> – https://www.facebook.com/business/help/952192354843755?id=1205376682832142
+
+  # GOOGLE
+  #==================================================
+  google_header:
+    label: <i class="fas fa-chart-pie" style="color:#E37400;"></i> Google Analytics
+    type: headline
+
+  google_site_verification:
+    label: <i class="fab fa-google"></i> Google Site Verification
+    type:  text
+    icon: google
+
+  google_tag_manager_head:
+    label: <i class="fab fa-google"></i> Google Tag Manager (head)
+    type:  textarea
+    help: <i class="fa fa-google" aria-hidden="true"></i> embed code tag <strong>head</strong>
+
+  google_tag_manager_body:
+    label: <i class="fab fa-google"></i> Google Tag Manager (body)
+    type:  textarea
+    help: <i class="fa fa-google" aria-hidden="true"></i> embed code tag <strong>body</strong>

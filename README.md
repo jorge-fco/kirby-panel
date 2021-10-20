@@ -34,11 +34,16 @@ panel/app/snippets/pages/sidebar/files.php
 panel/app/snippets/pages/sidebar/subpages.php
 ```
 
+## Widgets
+- Certificado SSL
+- Google Analytics
+
 ### Features.
 - Certificate SSL
 - WhatsApp Business.
 - Facebook Messenger.
 - Fcaebook ID.
+- Facebook domain verification.
 - Favicon.
 - Google Site Verification.
 - Google Analytics.

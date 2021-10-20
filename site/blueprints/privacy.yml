@@ -1,0 +1,18 @@
+title: Privacy
+icon: lock
+files: false
+pages: false
+options:
+  preview: true
+  status: false
+  template: false
+  url: false
+  delete: false
+fields:
+  title:
+    label: Title
+    type:  text
+
+  description:
+    label: Descripción
+    type:  markdown

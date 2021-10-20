@@ -1,0 +1,18 @@
+title: Error
+icon: frown-o
+files: false
+pages: false
+options:
+  preview: true
+  status: false
+  template: false
+  url: false
+  delete: false
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  markdown

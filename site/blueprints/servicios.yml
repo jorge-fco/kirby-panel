@@ -1,0 +1,19 @@
+title: Servicios
+icon: briefcase
+files: false
+pages:
+  template: service
+options:
+  preview: true
+  status: true
+  template: false
+  url: false
+  delete: false
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  markdown

@@ -1,0 +1,40 @@
+title: WhatsApp Business
+icon: whatsapp
+files: false
+pages: false
+options:
+  preview: true
+  status: false
+  template: false
+  url: false
+  delete: false
+fields:
+  title:
+    label: Título
+    type:  text
+    disabled: true
+
+  info:
+    label: <i class="fab fa-whatsapp" style="color:#07E676;"></i> <strong style="color:#20BEA5;">WhatsApp</strong>
+    type: info
+    text: >
+      Introduce el número teléfonico <strong>10 dígitos</strong> de tu cuenta de <strong>WhatsApp Business<strong> para conectarlo con tu sitio web.
+
+  whatsapp_number:
+    label: Número de WhatsApp
+    type: tel
+    width: 1/2
+    icon: whatsapp
+    placeholder: 3312345678
+
+  active_whatsapp:
+    label: Activar button WhatsApp
+    type:  switch
+    width: 1/2
+    text:  Activar y mostrar
+
+  whatsapp_message:
+    label: <i class="fas fa-comment"></i> Mensaje
+    type:  text
+    icon: commenting
+    placeholder: Hola, me interesa algunos de sus productos

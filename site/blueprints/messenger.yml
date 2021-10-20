@@ -1,0 +1,46 @@
+title: Messenger
+icon: facebook-square
+files: false
+pages: false
+options:
+  preview: true
+  status: false
+  template: false
+  url: false
+  delete: false
+fields:
+  title:
+    label: Título
+    type:  text
+    disabled: false
+
+  info:
+    label: <i class="fab fa-facebook-messenger" style="color:#0a7cff;"></i> <strong style="color:#0a7cff;">Messenger</strong>
+    type: info
+    text: >
+      Administra la configuración de bots y otras funciones de mensajes avanzadas.
+
+  active_messenger:
+    label: Activar button Messenger
+    type:  switch
+    text:  Activar y mostrar
+
+  facebook_page_id:
+    label: Facebook Page ID
+    type: text
+    width: 1/2
+    icon: facebook-square
+    placeholder: 2431382796894685
+
+  facebook_app_id:
+    label: Facebook App ID
+    type: text
+    width: 1/2
+    icon: facebook-square
+    placeholder: 2384643601588780
+
+  facebook_message:
+    label: Facebook mensaje
+    type:  text
+    icon: commenting
+    placeholder: Bienvenido escríbenos tu duda para atenderte

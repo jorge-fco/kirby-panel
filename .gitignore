@@ -2,6 +2,7 @@
 assets/*
 content/*
 site/*
+!site/blueprints
 kirby/*
 
 # = EDITOR
