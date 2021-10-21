@@ -20,6 +20,9 @@
 									<?php if ($id == 'whatsapp'): ?>
 										<i class="fab fa-whatsapp" style="color: #07E676;"></i>
 									<?php endif ?>
+									<?php if ($id == 'messenger'): ?>
+										<i class="fab fa-facebook-messenger" style="color: #0a7cff;"></i>
+									<?php endif ?>
 									<?php __(a::get($title, 'text')) ?>
 								</a>
 							<?php else: ?>

@@ -1,8 +1,8 @@
-title: Messenger
+title: Facebook Píxel
 icon: facebook-square
+hide: true
 files: false
 pages: false
-hide: true
 options:
   preview: true
   status: false
@@ -28,36 +28,3 @@ fields:
           Más información acerca de Facebook chat plugin
         </a>
       </div>
-
-  active_messenger:
-    label: Activar button Messenger
-    type:  switch
-    text:  Activar y mostrar
-    width: 1/2
-
-  facebook_version:
-    label: Facebook version
-    type: text
-    width: 1/2
-    icon: facebook-square
-    placeholder: v12.0
-
-  facebook_page_id:
-    label: Facebook Page ID
-    type: text
-    width: 1/2
-    icon: facebook-square
-    placeholder: 2431382796894685
-
-  facebook_app_id:
-    label: Facebook APP ID
-    type: text
-    width: 1/2
-    icon: facebook-square
-    placeholder: 2384643601588780
-
-  facebook_message:
-    label: Facebook mensaje
-    type:  text
-    icon: commenting
-    placeholder: Bienvenido escríbenos tu duda para atenderte
