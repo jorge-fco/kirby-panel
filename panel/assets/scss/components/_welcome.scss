@@ -39,3 +39,51 @@
 		}
 	}
 }
+
+.welcome__settings{
+	width: 100%;
+	padding: 1em 1.5em;
+	background: $color-accent;
+	border: 1px solid $color-divider;
+	margin-top: 25px;
+	position: relative;
+
+	p{
+		font-weight: 700;
+		margin-bottom: 0px;
+
+		i{
+			margin-right: 4px;
+			position: relative;
+		}
+	}
+
+	span{
+		color: $color-text-light;
+		font-size: 14px;
+		display: block;
+		position: relative;
+		margin-top: 4px;
+		margin-bottom: 25px;
+
+		i{
+			margin-right: 4px;
+			position: relative;
+		}
+	}
+
+	a{
+		color: $color-link;
+		position: relative;
+		text-decoration: underline;
+
+		&:hover{
+			color: $color-link-hover;
+		}
+
+		i{
+			margin-right: 4px;
+			position: relative;
+		}
+	}
+}
