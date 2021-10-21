@@ -30,6 +30,7 @@ panel/app/snippets/pages/sidebar/files.php
 ```
 
 ## Sidebar.
+Ruta:
 ```
 panel/app/snippets/pages/sidebar/subpages.php
 ```
@@ -37,6 +38,17 @@ panel/app/snippets/pages/sidebar/subpages.php
 ## Widgets
 - Certificado SSL
 - Google Analytics
+- Facebook Píxel
+
+Ruta:
+```
+panel/app/widgets/
+```
+
+Edit titles:
+```
+panel/app/views/dashboard/index.php
+```
 
 ### Features.
 - Certificate SSL

@@ -12,16 +12,18 @@
     float: right;
   }
 }
+
 .nav-icon {
-  display: inline-block;
-  background: #000;
-  color: #fff;
-  padding: 1em 0 1em;
-  text-align: center;
-  line-height: 1em;
-  height: 3em;
-  width: 4em;
+	display: inline-block;
+	background: $color-elements;
+	color: #fff;
+	padding: 1em 0 1em;
+	text-align: center;
+	line-height: 1em;
+	height: 3em;
+	width: 4em;
 }
+
 .nav-icon:hover {
   color: #999;
 }

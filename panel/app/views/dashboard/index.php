@@ -8,11 +8,17 @@
 						<span class="hgroup-title">
 							<?php if(!empty($title['link'])): ?>
 								<a<?php e(a::get($title, 'target'), ' target="' . a::get($title, 'target') . '"') ?> href="<?php __($title['link']) ?>">
-									<?php if ($id=='analytics'): ?>
+									<?php if ($id == 'analytics'): ?>
 										<i class="fas fa-chart-line" style="color:#FAAB00;"></i>
 									<?php endif ?>
-									<?php if ($id=='certificado-ssl'): ?>
+									<?php if ($id == 'certificado-ssl'): ?>
 										<i class="fas fa-globe" style="color:#34d058;"></i>
+									<?php endif ?>
+									<?php if ($id == 'facebook-pixel'): ?>
+										<i class="fab fa-facebook" style="color: #1461cc;"></i>
+									<?php endif ?>
+									<?php if ($id == 'whatsapp'): ?>
+										<i class="fab fa-whatsapp" style="color: #07E676;"></i>
 									<?php endif ?>
 									<?php __(a::get($title, 'text')) ?>
 								</a>

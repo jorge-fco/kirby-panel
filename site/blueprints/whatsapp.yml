@@ -1,5 +1,6 @@
 title: WhatsApp Business
 icon: whatsapp
+hide: true
 files: false
 pages: false
 options:
@@ -15,11 +16,19 @@ fields:
     disabled: true
 
   info:
-    label: <i class="fab fa-whatsapp" style="color:#07E676;"></i> <strong style="color:#20BEA5;">WhatsApp</strong>
+    label: <div class="whatsapp__blueprint__title"><span><i class="fab fa-whatsapp"></i></span> <h4>WhatsApp Business</h4></div>
     type: info
     text: >
-      Introduce el número teléfonico <strong>10 dígitos</strong> de tu cuenta de <strong>WhatsApp Business<strong> para conectarlo con tu sitio web.
+      <div class="whatsapp__blueprint__text">
+        <p>
+          Introduce el número teléfonico <strong>10 dígitos</strong> de tu cuenta de <strong>WhatsApp Business</strong> para conectarlo con tu sitio web.
+        </p>
+        <p>
+          WhatsApp Business es una aplicación de descarga gratuita desarrollada especialmente para pequeñas empresas. Crea un catálogo para mostrar tus productos y servicios. Conéctate fácilmente con tus clientes gracias a las herramientas que te permiten automatizar, organizar y responder con rapidez los mensajes.
+        </p>
 
+        <a href="https://www.whatsapp.com/business" target="_blank">Aplicación WhatsApp Business</a>
+      </div>
   whatsapp_number:
     label: Número de WhatsApp
     type: tel
