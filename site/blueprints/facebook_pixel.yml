@@ -16,15 +16,38 @@ fields:
     disabled: true
 
   info:
-    label: <div class="messenger__blueprint__title"><span><i class="fab fa-facebook-messenger"></i></span> <h4>Messenger</h4></div>
+    label: <div class="facebook__blueprint__title"><span><i class="fab fa-facebook"></i></span> <h4>Facebook Píxel</h4></div>
     type: info
     text: >
-      <div class="messenger__blueprint__text">
+      <div class="facebook__blueprint__text">
         <p>
-          Este plugin permite que los visitantes del <strong>sitio web</strong> chateen con tu empresa mediante <strong>Messenger</strong> cuando hacen clic en el logotipo de Messenger que se muestra en tu sitio web.
+          Si ya creaste un píxel y quieres encontrar el código base, pasa a la sección 2: Agrega el píxel de Facebook a tu sitio web. Sigue las instrucciones para agregar el código del píxel al sitio web manualmente.
         </p>
 
-        <a href="https://developers.facebook.com/docs/messenger-platform/discovery/facebook-chat-plugin/?locale=es_LA" target="_blank">
-          Más información acerca de Facebook chat plugin
+        <a href="https://www.facebook.com/business/help/952192354843755?id=1205376682832142" target="_blank">
+          Cómo configurar e instalar un píxel de Facebook
         </a>
       </div>
+
+  active_facebook_pixel:
+    label: Activar Facebook Píxel
+    type:  switch
+    text:  Activar e iniciar tracking
+
+  facebook_id:
+    label: <i class="fab fa-facebook-square"></i> Facebook App ID
+    type:  text
+    icon: facebook
+    width: 1/2
+
+  facebook_domain_verification:
+    label: <i class="fab fa-facebook-square"></i> Facebook verificación de dominio
+    type:  text
+    icon: facebook
+    width: 1/2
+    help: https://www.facebook.com/business/help/286768115176155
+
+  facebook_pixel_code:
+    label: <i class="fas fa-code"></i> Facebook Píxel Code
+    type:  textarea
+    help: <i class="fa fa-facebook-official" aria-hidden="true"></i> embed code tag <strong>head</strong>

@@ -1,0 +1,51 @@
+title: Google Analytics
+icon: facebook-square
+hide: true
+files: false
+pages: false
+options:
+  preview: true
+  status: false
+  template: false
+  url: false
+  delete: false
+fields:
+  title:
+    label: Título
+    type:  text
+    disabled: true
+
+  info:
+    label: <div class="google__analytics__blueprint__title"><span><?xml version="1.0" encoding="utf-8"?> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 192 192" enable-background="new 0 0 192 192" xml:space="preserve"> <rect x="0" y="0" fill="none" width="192" height="192"/> <g> <g> <path fill="#F9AB00" d="M130,29v132c0,14.77,10.19,23,21,23c10,0,21-7,21-23V30c0-13.54-10-22-21-22S130,17.33,130,29z"/> </g> <g> <path fill="#E37400" d="M75,96v65c0,14.77,10.19,23,21,23c10,0,21-7,21-23V97c0-13.54-10-22-21-22S75,84.33,75,96z"/> </g> <g> <circle fill="#E37400" cx="41" cy="163" r="21"/> </g> </g> </svg></span> <h4>Google Analytics</h4></div>
+    type: info
+    text: >
+      <div class="google__analytics__blueprint__text">
+        <p>
+         Conozca mejor a los usuarios de su sitio web y su aplicación para evaluar mejor el rendimiento de sus acciones de marketing, su contenido y sus productos, entre otros aspectos.
+        </p>
+
+        <a href="https://marketingplatform.google.com/about/analytics/?hl=es" target="_blank">
+          Vincule sus datos para obtener resultados
+        </a>
+      </div>
+
+  active_analytics:
+    label: Activar Google Analytics
+    type:  switch
+    text:  Activar e iniciar tracking
+
+
+  google_site_verification:
+    label: <i class="fab fa-google"></i> Google Site Verification
+    type:  text
+    icon: google
+
+  google_tag_manager_head:
+    label: <i class="fab fa-google"></i> Google Tag Manager (head)
+    type:  textarea
+    help: <i class="fa fa-google" aria-hidden="true"></i> embed code tag <strong>head</strong>
+
+  google_tag_manager_body:
+    label: <i class="fab fa-google"></i> Google Tag Manager (body)
+    type:  textarea
+    help: <i class="fa fa-google" aria-hidden="true"></i> embed code tag <strong>body</strong>

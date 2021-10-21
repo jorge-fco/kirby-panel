@@ -2,11 +2,13 @@
 	Facebook
 */
 $color-facebook-primary: #0a7cff;
+$color-facebook-secundary: #1877F2;
 $color-facebook-accent: rgba(24, 119, 242, 0.10);
 
 //= MESSENGER
 .messenger__widgets{
-
+	width: 100%;
+	position: relative;
 }
 
 .messenger__widgets__container{
@@ -168,10 +170,21 @@ $color-facebook-accent: rgba(24, 119, 242, 0.10);
 
 	a{
 		color: $color-primary;
-		font-size: 14px;
+		font-size: 12px;
 		margin-top: 16px;
 		display: inline-block;
 		position: relative;
+
+		&.button{
+			color: $color-facebook-secundary;
+			font-size: 14px;
+			font-weight: 700;
+			margin-right: 12px;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid transparent;
+			background-color: $color-facebook-accent;
+		}
 
 		i{
 			display: inline-block;
@@ -207,6 +220,76 @@ $color-facebook-accent: rgba(24, 119, 242, 0.10);
 			color: #f85149;
 			border-color: rgba(248, 81, 73, 0.4);
 			background-color: rgba(248, 81, 73, 0.1);
+		}
+	}
+}
+
+.facebook__blueprint__title{
+	width: 100%;
+	position: relative;
+
+	span{
+		font-size: 24px;
+		margin-right: 6px;
+		position: relative;
+		display: inline-block;
+
+		&:before{
+			content: '';
+			width: 34px;
+			height: 34px;
+			top: 50%;
+			left: 50%;
+			border-radius: 100%;
+			background: $color-facebook-secundary;
+			border: 1px solid $color-facebook-secundary;
+			position: absolute;
+			transform: translate(-50%, -50%);
+		}
+	}
+
+	i{
+		color: white;
+		z-index: 10;
+		position: relative;
+	}
+
+
+	h4{
+		color: $color-facebook-secundary;
+		font-size: 24px;
+		font-weight: 700;
+		display: inline-block;
+		position: relative;
+		margin-bottom: 25px;
+	}
+}
+
+.facebook__blueprint__text{
+	width: 100%;
+	position: relative;
+	margin-bottom: 35px;
+
+	a{
+		color: $color-link;
+		display: inline-block;
+		position: relative;
+		margin-top: 12px;
+		margin-bottom: 12px;
+		border-bottom: 1px solid $color-link;
+
+		&:hover{
+			color: $color-link-hover;
+			border-bottom: 1px solid $color-link-hover;
+		}
+	}
+
+	p{
+		margin: 0px;
+		position: relative;
+
+		+ p{
+			margin-top: 16px;
 		}
 	}
 }

@@ -3834,6 +3834,9 @@ body.rtl .icon-right {
   background-color: rgba(248, 81, 73, 0.1);
 }
 
+/*
+	Google
+*/
 .google__analytics {
   width: 100%;
   position: relative;
@@ -3852,10 +3855,20 @@ body.rtl .icon-right {
 }
 .google__analytics__container a {
   color: var(--color-primary);
-  font-size: 14px;
+  font-size: 12px;
   display: inline-block;
   position: relative;
   margin-top: 16px;
+}
+.google__analytics__container a.button {
+  color: #E37400;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background: #fff5ea;
 }
 .google__analytics__container a i {
   font-size: 14px;
@@ -3891,9 +3904,83 @@ body.rtl .icon-right {
   background-color: rgba(248, 81, 73, 0.1);
 }
 
+.google__analytics__blueprint__title {
+  width: 100%;
+  position: relative;
+}
+.google__analytics__blueprint__title span {
+  font-size: 24px;
+  margin-right: 6px;
+  position: relative;
+  display: inline-block;
+}
+.google__analytics__blueprint__title span:before {
+  content: "";
+  width: 34px;
+  height: 34px;
+  top: 50%;
+  left: 50%;
+  border-radius: 100%;
+  background: #fff5ea;
+  border: 1px solid #F9AB00;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.google__analytics__blueprint__title svg {
+  width: 24px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.google__analytics__blueprint__title i {
+  color: white;
+  z-index: 10;
+  position: relative;
+}
+.google__analytics__blueprint__title h4 {
+  color: #E37400;
+  font-size: 24px;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.google__analytics__blueprint__text {
+  width: 100%;
+  position: relative;
+  margin-bottom: 35px;
+}
+.google__analytics__blueprint__text a {
+  color: var(--color-link);
+  display: inline-block;
+  position: relative;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--color-link);
+}
+.google__analytics__blueprint__text a:hover {
+  color: var(--color-link-hover);
+  border-bottom: 1px solid var(--color-link-hover);
+}
+.google__analytics__blueprint__text p {
+  margin: 0px;
+  position: relative;
+}
+.google__analytics__blueprint__text p + p {
+  margin-top: 16px;
+}
+
 /*
 	Facebook
 */
+.messenger__widgets {
+  width: 100%;
+  position: relative;
+}
+
 .messenger__widgets__container {
   width: 100%;
   position: relative;
@@ -4035,10 +4122,20 @@ body.rtl .icon-right {
 }
 .facebook__pixel__container a {
   color: var(--color-primary);
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 16px;
   display: inline-block;
   position: relative;
+}
+.facebook__pixel__container a.button {
+  color: #1877F2;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 12px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: rgba(24, 119, 242, 0.1);
 }
 .facebook__pixel__container a i {
   display: inline-block;
@@ -4071,6 +4168,69 @@ body.rtl .icon-right {
   color: #f85149;
   border-color: rgba(248, 81, 73, 0.4);
   background-color: rgba(248, 81, 73, 0.1);
+}
+
+.facebook__blueprint__title {
+  width: 100%;
+  position: relative;
+}
+.facebook__blueprint__title span {
+  font-size: 24px;
+  margin-right: 6px;
+  position: relative;
+  display: inline-block;
+}
+.facebook__blueprint__title span:before {
+  content: "";
+  width: 34px;
+  height: 34px;
+  top: 50%;
+  left: 50%;
+  border-radius: 100%;
+  background: #1877F2;
+  border: 1px solid #1877F2;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.facebook__blueprint__title i {
+  color: white;
+  z-index: 10;
+  position: relative;
+}
+.facebook__blueprint__title h4 {
+  color: #1877F2;
+  font-size: 24px;
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.facebook__blueprint__text {
+  width: 100%;
+  position: relative;
+  margin-bottom: 35px;
+}
+.facebook__blueprint__text a {
+  color: var(--color-link);
+  display: inline-block;
+  position: relative;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--color-link);
+}
+.facebook__blueprint__text a:hover {
+  color: var(--color-link-hover);
+  border-bottom: 1px solid var(--color-link-hover);
+}
+.facebook__blueprint__text p {
+  margin: 0px;
+  position: relative;
+}
+.facebook__blueprint__text p + p {
+  margin-top: 16px;
 }
 
 /*
