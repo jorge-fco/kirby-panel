@@ -1,6 +1,25 @@
 # Kirby Panel.
 Kirby CMS version 2.5.12
 
+### Architecture
+- Home
+- Contact
+- Error 404
+- Privacy
+
+### Features.
+- Certificate SSL
+- WhatsApp Business.
+- Facebook Messenger.
+- Fcaebook ID.
+- Facebook domain verification.
+- Favicon.
+- Google Site Verification.
+- Google Analytics.
+- Minify files.
+- Version CSS.
+- Version JS.
+
 ## Header.
 ```
 panel/app/layouts/app.php
@@ -49,19 +68,6 @@ Edit titles:
 ```
 panel/app/views/dashboard/index.php
 ```
-
-### Features.
-- Certificate SSL
-- WhatsApp Business.
-- Facebook Messenger.
-- Fcaebook ID.
-- Facebook domain verification.
-- Favicon.
-- Google Site Verification.
-- Google Analytics.
-- Minify files.
-- Version CSS.
-- Version JS.
 
 ## References.
 * https://tailwindcss.com/

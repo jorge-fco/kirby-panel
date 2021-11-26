@@ -910,18 +910,17 @@ body.rtl .field-grid-item {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+.input:focus {
+  outline: 0;
+  border-color: var(--color-text-light);
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
 .input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px white inset !important;
           box-shadow: 0 0 0 1000px white inset !important;
-}
-
-.input:focus {
-  outline: 0;
-  border-color: var(--color-text);
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .input.over {
@@ -1372,7 +1371,7 @@ body:not(.login) #form-field-username {
 }
 
 .message-is-alert .message-content {
-  background: #b3000a;
+  background: var(--color-red);
 }
 
 .message-is-alert a {

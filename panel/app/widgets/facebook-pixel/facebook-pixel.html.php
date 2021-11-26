@@ -6,9 +6,9 @@
 		<p>Un fragmento de código para tu sitio web que te permite medir, optimizar y crear públicos para tus campañas publicitarias.</p>
 
 		<?php if ($facebook_pixel->active_facebook_pixel() == 'true'): ?>
-			<label><i class="fas fa-lock"></i> Estatus: <data class="is-active">Activado</data></label>
+			<label><i class="fas fa-cog"></i> Estatus: <data class="is-active">Activado</data></label>
 		<?php else: ?>
-			<label><i class="fas fa-lock"></i> Estatus: <data class="is-desactive">Desactivado</data></label>
+			<label><i class="fas fa-cog"></i> Estatus: <data class="is-desactive">Desactivado</data></label>
 		<?php endif ?>
 
 		<a href="pages/pixel/edit" class="button">
