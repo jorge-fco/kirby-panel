@@ -658,7 +658,7 @@ body.rtl .label-option {
 }
 
 .field-with-error .label abbr {
-  color: #b3000a;
+  color: var(--color-red);
 }
 
 .field-with-error .input:focus {
@@ -666,7 +666,7 @@ body.rtl .label-option {
 }
 
 .field-with-error .label {
-  color: #b3000a;
+  color: var(--color-red);
 }
 
 .field-with-info {
@@ -3757,6 +3757,34 @@ body.rtl .icon-right {
 
 .fa-toggle-off {
   color: var(--color-icon-accent) !important;
+}
+
+.is-instagram-icon {
+  color: #A432B1 !important;
+}
+
+.is-facebook-icon {
+  color: #1A76F2 !important;
+}
+
+.is-twitter-icon {
+  color: #1d9bf0 !important;
+}
+
+.is-youtube-icon {
+  color: #FF0000 !important;
+}
+
+.is-linkedin-icon {
+  color: #0D66C2 !important;
+}
+
+.is-pinterest-icon {
+  color: #E60022 !important;
+}
+
+.is-behance-icon {
+  color: #1A76F2 !important;
 }
 
 .debugger {

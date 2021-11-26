@@ -89,13 +89,13 @@ form.loading:after {
 }
 
 .field-with-error .label abbr {
-	color: $color-error;
+	color: $color-red;
 }
 .field-with-error .input:focus {
 	border-color: #000;
 }
 .field-with-error .label {
-	color: $color-error;
+	color: $color-red;
 }
 
 .field-with-info {

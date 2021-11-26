@@ -87,57 +87,31 @@ fields:
     help: Incluir numero LADA
     placeholder: (33) 1234 5678
 
+  #= TAB 02
+  #= SOCIAL MEDIA
   tab2:
     label: Social Media
     type: tabs
     icon: thumbs-up
 
   facebook:
-    label: Facebook
+    label: <i class="fab fa-facebook is-facebook-icon"></i> Facebook
     type:  url
-    icon: facebook
+    icon: link
     width: 1/2
     help: Enlace de tu perfil
 
   instagram:
-    label: Instagram
+    label: <i class="fab fa-instagram is-instagram-icon"></i> Instagram
     type:  url
-    icon: instagram
-    width: 1/2
-    help: Enlace de tu perfil
-
-  pinterest:
-    label: Pinterest
-    type:  url
-    icon: pinterest
-    width: 1/2
-    help: Enlace de tu perfil
-
-  behance:
-    label: Behance
-    type:  url
-    icon: behance
-    width: 1/2
-    help: Enlace de tu perfil
-
-  linkedin:
-    label: Linkedin
-    type:  url
-    icon: linkedin
-    width: 1/2
-    help: Enlace de tu perfil
-
-  youtube:
-    label: YouTube
-    type:  url
-    icon: youtube
+    icon: link
     width: 1/2
     help: Enlace de tu perfil
 
   twitter:
-    label: Twitter
+    label: <i class="fab fa-twitter is-twitter-icon"></i> Twitter
     type:  url
-    icon: twitter
+    icon: link
     width: 1/2
     help: Enlace de tu perfil
 
@@ -149,31 +123,75 @@ fields:
     placeholder: @tu_usuario
     help: Nombre de usuario
 
+  tiktok:
+    label: <i class="fab fa-tiktok"></i> TikTok
+    type:  url
+    icon: link
+    width: 1/2
+    help: Enlace de tu perfil
+
+  youtube:
+    label: <i class="fab fa-youtube is-youtube-icon"></i> YouTube
+    type:  url
+    icon: link
+    width: 1/2
+    help: Enlace de tu perfil
+
+  linkedin:
+    label: <i class="fab fa-linkedin is-linkedin-icon"></i> Linkedin
+    type:  url
+    icon: link
+    width: 1/2
+    help: Enlace de tu perfil
+
+  pinterest:
+    label: <i class="fab fa-pinterest is-pinterest-icon"></i> Pinterest
+    type:  url
+    icon: link
+    width: 1/2
+    help: Enlace de tu perfil
+
+  behance:
+    label: <i class="fab fa-behance-square is-behance-icon"></i> Behance
+    type:  url
+    icon: link
+    width: 1/2
+    help: Enlace de tu perfil
+
+
+  #= TAB 03
+  #= GOOGLE MAPS
   tab3:
     label: Google Maps
     type: tabs
     icon: map-marker
 
+  google_maps_link:
+    label: <i class="fas fa-map-marked-alt"></i> Enlace Google Maps
+    type:  url
+    icon: link
+    help: Enlace de Google Maps
+
   latitude:
-    label: Latitude
+    label: <i class="fas fa-map-marker-alt"></i> Latitude
     type:  text
     icon: map-o
     width: 1/2
 
   longitude:
-    label: Longitude
+    label: <i class="fas fa-map-marker-alt"></i> Longitude
     type:  text
     icon: map-o
     width: 1/2
 
   geo_conutry:
-    label: Geo country
+    label: <i class="fas fa-globe-americas"></i> Geo Country
     type:  text
     icon: map-pin
     width: 1/2
 
   geo_state:
-    label: Geo state
+    label: <i class="fas fa-globe-americas"></i> Geo State
     type:  text
     icon: map-pin
     width: 1/2
